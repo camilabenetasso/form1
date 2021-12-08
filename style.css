@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    border-radius: 10px;
+}
+
+fieldset{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.area-1 .area-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#name{
+    position: relative;
+    left: 30px;
+}
+
+#endereço{
+    position: relative;
+    left: 4px;
+}
+
+#cidade{
+    position: relative;
+    left: 24px;
+}
+
+#estado{
+    position: relative;
+    left: 25px;
+}
+
+#tel{
+    position: relative;
+    left: 14px;
+}
+
+#enviar, #limpar{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+#enviar{
+    background-color: blue;
+}
+
+#limpar{
+    background-color: rgb(255, 0, 0);
+}
+
+#enviar:hover{
+    background-color: rgb(70, 70, 172);
+    transition: 1s;
+    cursor: pointer;
+    color: black;
+}
+
+#limpar:hover{
+    background-color: rgb(187, 70, 70);
+    transition: 1s;
+    cursor: pointer;
+    color: black;
+}
